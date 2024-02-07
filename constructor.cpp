@@ -29,7 +29,7 @@ int main()
     private: // cant access private variable
         int secretPassword;
     };
-    Employee har("harry", 343, 242242);
+    Employee har("Ashu", 343, 242242);
     har.printDetails();
     har.getSecretPassword();//cant do cout<<har.secretPassword;
     return 0;
